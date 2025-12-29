@@ -20,7 +20,7 @@ The lab focuses on log ingestion, attack simulation, and detection engineering.
 - MITRE ATT&CK mapping
 
 
-## 🧪 Lab Architecture
+## Lab Architecture
 
 - **Windows VM** → Endpoint log source  
 - **Ubuntu VM** → Linux server log source  
@@ -42,14 +42,14 @@ The lab focuses on log ingestion, attack simulation, and detection engineering.
 
 ##  Detection Engineering
 
-###  SSH Brute Force Detection
+### 1.SSH Brute Force Detection
 - Created Sigma rule
 - Converted detection logic to Splunk SPL
 - Built a high-severity alert
 
 **MITRE ATT&CK:** T1110 – Brute Force
 
-### SSH Invalid User Enumeration
+### 2.SSH Invalid User Enumeration
 - Detected repeated SSH attempts using invalid usernames
 - Created medium-severity alert
 
