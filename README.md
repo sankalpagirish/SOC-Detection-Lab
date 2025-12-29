@@ -55,6 +55,5 @@ The lab focuses on log ingestion, attack simulation, and detection engineering.
 
 **MITRE ATT&CK:** T1087 – Account Discovery
 
-## Repository Structure
 
 
