@@ -1,0 +1,15 @@
+title: SSH Invalid User Login Attempt
+id: 4f22b7d3-ssh-invalid-user
+status: experimental
+description: Detects SSH login attempts using invalid or non-existent users
+author: Sanku
+logsource:
+  product: linux
+  service: auth
+detection:
+  selection:
+    message|contains: "invalid user"
+  condition: selection
+level: medium
+tags:
+  - attack.t1110
