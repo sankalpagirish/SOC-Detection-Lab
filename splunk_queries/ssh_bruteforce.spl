@@ -1,0 +1,3 @@
+index=* "Failed password"
+| stats count by src, user
+| where count > 5
